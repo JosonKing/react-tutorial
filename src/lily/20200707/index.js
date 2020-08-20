@@ -8,30 +8,14 @@ class Love extends Component {
   render() {
     return (
       <div className="container">
-        <div class="piece-box">
-          <div class="piece-box2">
-            <div class="piece piece-1"></div>
-            <div class="piece piece-2"></div>
-            <div class="piece piece-3"></div>
-            <div class="piece piece-4"></div>
-            <div class="piece piece-5"></div>
-            <div class="piece piece-6"></div>
-          </div>
-          <div class="piece-box3">
-            <div class="piece piece-1"></div>
-            <div class="piece piece-2"></div>
-            <div class="piece piece-3"></div>
-            <div class="piece piece-4"></div>
-            <div class="piece piece-5"></div>
-            <div class="piece piece-6"></div>
-          </div>
-          <div class="piece-box4">
-            <div class="piece piece-1"></div>
-            <div class="piece piece-2"></div>
-            <div class="piece piece-3"></div>
-            <div class="piece piece-4"></div>
-            <div class="piece piece-5"></div>
-            <div class="piece piece-6"></div>
+        <div className="ring-box">
+          <div className="cube-box2">
+            <div className="cube cube-1"></div>
+            <div className="cube cube-2"></div>
+            <div className="cube cube-3"></div>
+            <div className="cube cube-4"></div>
+            <div className="cube cube-5"></div>
+            <div className="cube cube-6"></div>
           </div>
         </div>
       </div>
