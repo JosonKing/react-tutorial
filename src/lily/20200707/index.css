@@ -28,6 +28,11 @@
   animation: boxRotate1 5s 10s infinite;
 }
 
+.piece-box4 {
+  transform-style: preserve-3d;
+  animation: boxRotate2 5s 10s infinite;
+}
+
 /*piece通用样式*/
 .piece {
   position: absolute;
@@ -182,18 +187,22 @@
 
 /*正方体旋转动画1*/
 @keyframes boxRotate1 {
-
-  /* 0% {
-  transform: rotateX(0deg) rotateY(0deg);
-}
-100% {
-  transform: rotateX(360deg) rotateY(0deg);
-} */
   0% {
     transform: rotateX(0deg) rotateY(0deg);
   }
 
   100% {
     transform: rotateX(360deg) rotateY(0deg);
+  }
+}
+
+/*正方体旋转动画2*/
+@keyframes boxRotate2 {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateX(0deg) rotateY(360deg);
   }
 }
