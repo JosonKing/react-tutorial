@@ -25,28 +25,30 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  background: red;
+  background: #3124fb;
   opacity: 0.5;
 
 }
 
 .cube-1 {
   background: #FF6666;
+  background-image: url('./images/1.png');
   transform: rotateY(0deg) translateZ(173.2px);
   animation: cube1Rotate 5s 5s;
   animation-fill-mode: forwards;
-
 }
 
 .cube-2 {
   background: #FFFF00;
+  background-image: url('./images/2.png');
   transform: rotateY(60deg) translateZ(173.2px);
   animation: cube2Rotate 5s 5s;
   animation-fill-mode: forwards;
 }
 
 .cube-3 {
-  background: #006699;
+  background: #699699;
+  background-image: url('./images/3.png');
   transform: rotateY(120deg) translateZ(173.2px);
   animation: cube3Rotate 5s 5s;
   animation-fill-mode: forwards;
@@ -54,6 +56,7 @@
 
 .cube-4 {
   background: #009999;
+  background-image: url('./images/4.png');
   transform: rotateY(180deg) translateZ(173.2px);
   animation: cube4Rotate 5s 5s;
   animation-fill-mode: forwards;
@@ -61,6 +64,7 @@
 
 .cube-5 {
   background: #FF0033;
+  background-image: url('./images/5.png');
   transform: rotateY(240deg) translateZ(173.2px);
   animation: cube5Rotate 5s 5s;
   animation-fill-mode: forwards;
@@ -68,6 +72,7 @@
 
 .cube-6 {
   background: #FF6600;
+  background-image: url('./images/6.png');
   transform: rotateY(300deg) translateZ(173.2px);
   animation: cube6Rotate 5s 5s;
   animation-fill-mode: forwards;
