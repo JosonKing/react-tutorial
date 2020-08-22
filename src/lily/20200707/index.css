@@ -1,97 +1,99 @@
 /*容器*/
 .container {
-  position        : absolute;
-  width           : 100%;
-  height          : 100%;
-  perspective     : 1000px;
-  background-image: url('./images/bg1.jpg');
-  background-size : 100% 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+  background-image: url('./images/bg.jpg');
+  /* background-size: 100% 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*cube盒子*/
 .ring-box {
-  position          : relative;
-  width             : 200px;
-  height            : 200px;
-  margin            : 300px auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 300px auto;
   perspective-origin: 50% 50%;
-  transform-style   : preserve-3d;
-  animation         : cubeRotate 5s;
+  transform-style: preserve-3d;
+  animation: cubeRotate 5s;
 }
 
 /*第二个动画盒子*/
 .cube-box2 {
   transform-style: preserve-3d;
-  animation      : boxRotate 15s infinite 10s;
+  animation: boxRotate 15s infinite 10s;
 }
 
 /*cube通用样式*/
 .cube {
-  position  : absolute;
-  width     : 200px;
-  height    : 200px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
   background: #3124fb;
-  opacity   : 0.8;
+  opacity: 0.9;
 }
 
 .cube-1 {
-  background         : #FF6666;
-  background-image   : url('./images/11.jpg');
-  transform          : rotateY(0deg) translateZ(173.2px);
-  animation          : cube1Rotate 5s 5s;
+  background: #FF6666;
+  background-image: url('./images/11.jpg');
+  transform: rotateY(0deg) translateZ(173.2px);
+  animation: cube1Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cube-2 {
-  background         : #FFFF00;
-  background-image   : url('./images/22.jpg');
-  transform          : rotateY(60deg) translateZ(173.2px);
-  animation          : cube2Rotate 5s 5s;
+  background: #FFFF00;
+  background-image: url('./images/22.jpg');
+  transform: rotateY(60deg) translateZ(173.2px);
+  animation: cube2Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cube-3 {
-  background         : #699699;
-  background-image   : url('./images/33.jpg');
-  transform          : rotateY(120deg) translateZ(173.2px);
-  animation          : cube3Rotate 5s 5s;
+  background: #699699;
+  background-image: url('./images/33.jpg');
+  transform: rotateY(120deg) translateZ(173.2px);
+  animation: cube3Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cube-4 {
-  background         : #009999;
-  background-image   : url('./images/44.jpg');
-  transform          : rotateY(180deg) translateZ(173.2px);
-  animation          : cube4Rotate 5s 5s;
+  background: #009999;
+  background-image: url('./images/44.jpg');
+  transform: rotateY(180deg) translateZ(173.2px);
+  animation: cube4Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cube-5 {
-  background         : #FF0033;
-  background-image   : url('./images/55.jpg');
-  transform          : rotateY(240deg) translateZ(173.2px);
-  animation          : cube5Rotate 5s 5s;
+  background: #FF0033;
+  background-image: url('./images/55.jpg');
+  transform: rotateY(240deg) translateZ(173.2px);
+  animation: cube5Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cube-6 {
-  background         : #FF6600;
-  background-image   : url('./images/66.jpg');
-  transform          : rotateY(300deg) translateZ(173.2px);
-  animation          : cube6Rotate 5s 5s;
+  background: #FF6600;
+  background-image: url('./images/66.jpg');
+  transform: rotateY(300deg) translateZ(173.2px);
+  animation: cube6Rotate 5s 5s;
   animation-fill-mode: forwards;
-  background-size    : cover;
-  background-repeat  : no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
